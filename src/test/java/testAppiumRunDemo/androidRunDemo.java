@@ -18,8 +18,6 @@ public class androidRunDemo {
         obj_uiAuto2_Opt.setAppActivity("com.swaglabsmobileapp.SplashActivity");
 
         AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), obj_uiAuto2_Opt);
-        Thread.sleep(3000);
-
 
         driver.quit();
 
